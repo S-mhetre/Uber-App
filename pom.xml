@@ -8,11 +8,11 @@
 		<version>3.3.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.codingshuttle.project.uber</groupId>
+	<groupId>com.sakshi.project.uber</groupId>
 	<artifactId>uberApp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>uberApp</name>
-	<description>Uber Project in Spring Boot</description>
+	<description>Uber Application Project in Spring Boot</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -27,7 +27,7 @@
 		<url/>
 	</scm>
 	<properties>
-		<java.version>22</java.version>
+		<java.version>18</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -60,11 +60,13 @@
 			<artifactId>hibernate-spatial</artifactId>
 			<version>6.5.2.Final</version>
 		</dependency>
+
 		<dependency>
 			<groupId>org.modelmapper</groupId>
 			<artifactId>modelmapper</artifactId>
 			<version>3.2.0</version>
 		</dependency>
+
 	</dependencies>
 
 	<build>

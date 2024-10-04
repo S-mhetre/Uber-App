@@ -3,16 +3,20 @@ package com.sakshi.project.uber.uberApp.services;
 import com.sakshi.project.uber.uberApp.dto.DriverDto;
 import com.sakshi.project.uber.uberApp.dto.RideDto;
 import com.sakshi.project.uber.uberApp.dto.RiderDto;
-
-import java.util.List;
+import com.sakshi.project.uber.uberApp.entities.Driver;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 
 public interface DriverService {
 
-    RideDto acceptRide(Long rideId);
+    RideDto acceptRide(Long rideRequestId);
     RideDto cancelRide(Long rideId);
-    RideDto startRide(Long rideId);
+    RideDto startRide(Long rideId, String otp);
     RideDto endRide(Long rideId);
     RiderDto rateRide(Long rideId, Double rating);
     DriverDto getMyProfile();
-    List<RideDto> getAllMyRide();
+    Page<RideDto> getAllMyRide(PageRequest pageRequest);
+    Driver getCurrentDriver();
+    Driver updateDriverAvailability(Driver driver, boolean available);
+    Driver createNewDriver(Driver driver);
 }

@@ -5,7 +5,9 @@ import com.sakshi.project.uber.uberApp.dto.SignupDto;
 import com.sakshi.project.uber.uberApp.dto.UserDto;
 
 public interface AuthService {
-    String login(String email, String password);
+    String[] login(String email, String password);
     UserDto signup(SignupDto signupDto);
-    DriverDto onboardNewDriver(Long userId);
+    DriverDto onboardNewDriver(Long userId, String vehicalId);
+
+    String refreshToken(String refreshToken);
 }

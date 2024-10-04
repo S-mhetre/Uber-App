@@ -1,2 +1,9 @@
-package com.sakshi.project.uber.uberApp.dto;public class RatingDto {
+package com.sakshi.project.uber.uberApp.dto;
+
+import lombok.Data;
+
+@Data
+public class RatingDto {
+    private Long rideId;
+    private Double rating;
 }

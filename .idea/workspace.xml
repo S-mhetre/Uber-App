@@ -4,204 +4,172 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1be391c-568d-4b7c-9c8f-82fedfb29fa1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/(1).gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler(1).xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings(1).xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories(1).xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc(1).xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner(1).xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace(1).xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/advices/ApiResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/dto/RideDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/entities/enums/PaymentMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/entities/enums/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/entities/enums/TransactionMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/entities/enums/TransactionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/DriverService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/Impl/DistanceServiceOSRMImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/Impl/RiderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/RiderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/strategies/DriverMatchingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/strategies/RideFareCalculationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/strategies/RideStrategyManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/strategies/impl/DriverMatchingHighestRatedDriverStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/strategies/impl/DriverMatchingNearestDriverStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/strategies/impl/RideFareDefaultFareCalculationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/strategies/impl/RideFareSurgePricingFareCalculationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/UberAppApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/advices/ApiError$ApiErrorBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/advices/ApiError.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/advices/ApiResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/advices/GlobalExceptionHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/advices/GlobalResponseHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/configs/MapperConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/controllers/AuthController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/controllers/RiderController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/dto/DriverDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/dto/PointDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/dto/RideDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/dto/RideRequestDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/dto/RiderDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/dto/SignupDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/dto/UserDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/entities/Driver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/entities/Payment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/entities/Ride.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/entities/RideRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/entities/Rider$RiderBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/entities/Rider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/entities/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/entities/Wallet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/entities/WalletTransaction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/entities/enums/PaymentMethod.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/entities/enums/PaymentStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/entities/enums/RideRequestStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/entities/enums/RideStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/entities/enums/Role.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/entities/enums/TransactionMethod.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/entities/enums/TransactionType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/exceptions/ResourceNotFoundException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/exceptions/RuntimeConflictException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/repositories/DriverRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/repositories/RideRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/repositories/RideRequestRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/repositories/RiderRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/repositories/UserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/services/AuthService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/services/DistanceService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/services/DriverService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/services/RideService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/services/RiderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/services/impl/AuthServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/services/impl/DistanceServiceOSRMImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/services/impl/DriverServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/services/impl/RideServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/services/impl/RiderServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/strategies/DriverMatchingStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/strategies/RideFareCalculationStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/strategies/impl/DriverMatchingHighestRatedDriverStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/strategies/impl/DriverMatchingNearestDriverStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/strategies/impl/RideFareSurgePricingFareCalculationStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/strategies/impl/RiderFareDefaultFareCalculationStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/utils/GeometryUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/UberAppApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/configs/MapperConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/controllers/RiderController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/dto/DriverDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/dto/PointDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/dto/RideDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/dto/RideRequestDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/dto/RiderDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/dto/SignupDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/dto/UserDto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/entities/Driver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/entities/Payment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/entities/Ride.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/entities/RideRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/entities/Rider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/entities/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/entities/Wallet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/entities/WalletTransaction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/entities/enums/PaymentMethod.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/entities/enums/PaymentStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/entities/enums/RideRequestStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/entities/enums/RideStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/entities/enums/Role.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/entities/enums/TransactionMethod.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/entities/enums/TransactionType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/repositories/DriverRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/repositories/RideRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/repositories/RideRequestRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/repositories/RiderRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/repositories/UserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/services/AuthService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/services/DistanceService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/services/DriverService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/services/Impl/AuthServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/services/Impl/DistanceServiceOSRMImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/services/Impl/DriverServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/services/Impl/RideServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/services/Impl/RiderServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/services/RideService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/services/RiderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/strategies/DriverMatchingStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/strategies/RideFareCalculationStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/strategies/impl/DriverMatchingHighestRatedDriverStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/strategies/impl/DriverMatchingNearestDriverStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/strategies/impl/RideFareDefaultFareCalculationStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/strategies/impl/RideFareSurgePricingFareCalculationStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/utils/GeometryUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+    <list default="true" id="e1be391c-568d-4b7c-9c8f-82fedfb29fa1" name="Changes" comment="New commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/configs/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/configs/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/dto/LoginRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/dto/LoginResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/security/JWTService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/security/JwtAuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/EmailSenderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/Impl/EmailSenderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sakshi/project/uber/uberApp/TestContainerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sakshi/project/uber/uberApp/controllers/AuthControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sakshi/project/uber/uberApp/services/impl/AuthServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/UberAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/UberAppApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/advices/ApiError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/advices/ApiError.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/advices/ApiResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/advices/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/advices/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/advices/GlobalResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/advices/GlobalResponseHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/configs/MapperConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/configs/MapperConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/controllers/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/controllers/RiderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/controllers/RiderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/dto/DriverDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/dto/DriverDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/dto/PointDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/dto/PointDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/dto/RideDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/dto/RideRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/dto/RideRequestDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/dto/RiderDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/dto/RiderDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/dto/SignupDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/dto/SignupDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/dto/UserDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/entities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/entities/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/entities/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/entities/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/entities/Ride.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/entities/Ride.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/entities/RideRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/entities/RideRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/entities/Rider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/entities/Rider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/entities/Wallet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/entities/Wallet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/entities/WalletTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/entities/WalletTransaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/entities/enums/PaymentMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/entities/enums/PaymentStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/entities/enums/PaymentStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/entities/enums/RideRequestStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/entities/enums/RideRequestStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/entities/enums/RideStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/entities/enums/RideStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/entities/enums/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/entities/enums/TransactionMethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/entities/enums/TransactionType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/exceptions/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/exceptions/ResourceNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/exceptions/RuntimeConflictException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/exceptions/RuntimeConflictException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/repositories/DriverRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/repositories/DriverRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/repositories/RideRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/repositories/RideRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/repositories/RideRequestRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/repositories/RideRequestRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/repositories/RiderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/repositories/RiderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/repositories/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/services/AuthService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/services/DistanceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/DistanceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/services/DriverService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/services/RideService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/RideService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/services/RiderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/services/impl/AuthServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/Impl/AuthServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/services/impl/DistanceServiceOSRMImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/services/impl/DriverServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/Impl/DriverServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/services/impl/RideServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/Impl/RideServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/services/impl/RiderServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/strategies/DriverMatchingStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/strategies/RideFareCalculationStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/strategies/impl/DriverMatchingHighestRatedDriverStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/strategies/impl/DriverMatchingNearestDriverStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/strategies/impl/RideFareSurgePricingFareCalculationStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/strategies/impl/RiderFareDefaultFareCalculationStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codingshuttle/project/uber/uberApp/utils/GeometryUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/utils/GeometryUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/advices/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/advices/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/advices/GlobalResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/advices/GlobalResponseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/controllers/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/controllers/DriverController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/controllers/DriverController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/controllers/RiderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/controllers/RiderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/dto/DriverDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/dto/DriverDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/dto/OnBoardDriverDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/dto/OnBoardDriverDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/dto/RatingDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/dto/RatingDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/dto/RideDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/dto/RideDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/dto/RideRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/dto/RideRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/dto/RideStartDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/dto/RideStartDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/dto/RiderDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/dto/RiderDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/dto/WalletDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/dto/WalletDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/dto/WalletTransactionDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/dto/WalletTransactionDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/entities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/entities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/entities/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/entities/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/entities/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/entities/Rating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/entities/Ride.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/entities/Ride.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/entities/RideRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/entities/RideRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/entities/Rider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/entities/Rider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/entities/Wallet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/entities/Wallet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/entities/WalletTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/entities/WalletTransaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/repositories/DriverRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/repositories/DriverRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/repositories/PaymentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/repositories/PaymentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/repositories/RatingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/repositories/RatingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/repositories/RideRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/repositories/RideRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/repositories/RiderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/repositories/RiderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/repositories/WalletRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/repositories/WalletRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/repositories/WalletTransactionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/repositories/WalletTransactionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/DriverService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/DriverService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/Impl/AuthServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/Impl/AuthServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/Impl/DriverServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/Impl/DriverServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/Impl/PaymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/Impl/PaymentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/Impl/RatingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/Impl/RatingServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/Impl/RideRequestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/Impl/RideRequestServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/Impl/RideServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/Impl/RideServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/Impl/RiderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/Impl/RiderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/Impl/WalletServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/Impl/WalletServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/Impl/WalletTransactionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/Impl/WalletTransactionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/RatingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/RatingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/RideRequestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/RideRequestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/RideService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/RideService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/RiderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/RiderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/WalletService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/WalletService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/WalletTransactionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/services/WalletTransactionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/strategies/DriverMatchingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/strategies/DriverMatchingStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/strategies/PaymentStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/strategies/PaymentStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/strategies/PaymentStrategyManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/strategies/PaymentStrategyManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/strategies/RideFareCalculationStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/strategies/RideFareCalculationStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/strategies/impl/CashPaymentStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/strategies/impl/CashPaymentStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/strategies/impl/DriverMatchingHighestRatedDriverStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/strategies/impl/DriverMatchingHighestRatedDriverStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/strategies/impl/DriverMatchingNearestDriverStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/strategies/impl/DriverMatchingNearestDriverStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/strategies/impl/RideFareDefaultFareCalculationStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/strategies/impl/RideFareDefaultFareCalculationStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/strategies/impl/WalletPaymentStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sakshi/project/uber/uberApp/strategies/impl/WalletPaymentStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codingshuttle/project/uber/uberApp/UberAppApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sakshi/project/uber/uberApp/UberAppApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sakshi/project/uber/uberApp/UberAppApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sakshi/project/uber/uberApp/UberAppApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/UberAppApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/advices/ApiError$ApiErrorBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/advices/ApiError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/advices/ApiResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/advices/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/advices/GlobalResponseHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/configs/MapperConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/controllers/AuthController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/controllers/RiderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/dto/DriverDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/dto/PointDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/dto/RideDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/dto/RideRequestDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/dto/RiderDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/dto/SignupDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/dto/UserDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/entities/Driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/entities/Payment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/entities/Ride.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/entities/RideRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/entities/Rider$RiderBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/entities/Rider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/entities/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/entities/Wallet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/entities/WalletTransaction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/entities/enums/PaymentMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/entities/enums/PaymentStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/entities/enums/RideRequestStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/entities/enums/RideStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/entities/enums/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/entities/enums/TransactionMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/entities/enums/TransactionType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/exceptions/ResourceNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/exceptions/RuntimeConflictException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/repositories/DriverRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/repositories/RideRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/repositories/RideRequestRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/repositories/RiderRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/repositories/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/services/AuthService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/services/DistanceService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/services/DriverService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/services/RideService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/services/RiderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/services/impl/AuthServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/services/impl/DistanceServiceOSRMImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/services/impl/DriverServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/services/impl/RideServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/services/impl/RiderServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/strategies/DriverMatchingStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/strategies/RideFareCalculationStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/strategies/impl/DriverMatchingHighestRatedDriverStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/strategies/impl/DriverMatchingNearestDriverStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/strategies/impl/RideFareSurgePricingFareCalculationStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/strategies/impl/RiderFareDefaultFareCalculationStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codingshuttle/project/uber/uberApp/utils/GeometryUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/controllers/RiderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/controllers/RiderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/dto/DriverDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/dto/DriverDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/dto/RideDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/dto/RideDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/dto/RideRequestDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/dto/RideRequestDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/dto/RiderDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/dto/RiderDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/dto/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/dto/UserDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/entities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/entities/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/entities/Payment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/entities/Payment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/entities/Ride.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/entities/Ride.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/entities/RideRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/entities/RideRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/entities/Rider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/entities/Rider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/entities/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/entities/Wallet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/entities/Wallet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/entities/WalletTransaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/entities/WalletTransaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/repositories/DriverRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/repositories/DriverRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/repositories/RideRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/repositories/RideRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/repositories/RiderRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/repositories/RiderRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/services/AuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/services/AuthService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/services/DriverService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/services/DriverService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/services/Impl/AuthServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/services/Impl/AuthServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/services/Impl/DistanceServiceOSRMImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/services/Impl/DistanceServiceOSRMImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/services/Impl/DriverServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/services/Impl/DriverServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/services/Impl/RideServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/services/Impl/RideServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/services/Impl/RiderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/services/Impl/RiderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/services/RideService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/services/RideService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/services/RiderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/services/RiderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/strategies/impl/DriverMatchingHighestRatedDriverStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/strategies/impl/DriverMatchingHighestRatedDriverStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/strategies/impl/DriverMatchingNearestDriverStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/strategies/impl/DriverMatchingNearestDriverStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/strategies/impl/RideFareDefaultFareCalculationStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/strategies/impl/RideFareDefaultFareCalculationStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/strategies/impl/RideFareSurgePricingFareCalculationStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sakshi/project/uber/uberApp/strategies/impl/RideFareSurgePricingFareCalculationStrategy.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,12 +188,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -240,15 +214,37 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.UberAppApplication.executor": "Run",
+    "Application.ProdUberApplication.executor": "Run",
+    "Application.UberAppApplication.executor": "Debug",
+    "JUnit.UberAppApplicationTests.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/VINAY/Downloads/SpringBoot/prod-ready-features",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "last_opened_file_path": "C:/Users/VINAY/Downloads/SpringBoot/uberApp/src/main/resources",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\VINAY\Downloads\SpringBoot\uberApp\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ProdUberApplication">
+    <configuration name="ProdUberApplication" type="Application" factoryName="Application">
+      <envs>
+        <env name="DB_HOST_URL" value="postgres-spring.cjue0ssygs82.us-east-1.rds.amazonaws.com" />
+        <env name="DB_NAME" value="postgres" />
+        <env name="DB_PASSWORD" value="Sakshi_0705" />
+        <env name="DB_USERNAME" value="postgres" />
+        <env name="JWT_SECRET_KEY" value="bdfgywieh82475jkbdhqiw8te.,nkebhfvjashbvdghhiuu7qwhbsvcgajgwyq" />
+        <env name="SPRING_PROFILES_ACTIVE" value="prod" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.sakshi.project.uber.uberApp.UberAppApplication" />
+      <module name="uberApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UberAppApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sakshi.project.uber.uberApp.UberAppApplication" />
       <module name="uberApp" />
@@ -262,8 +258,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UberAppApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="uberApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sakshi.project.uber.uberApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sakshi.project.uber.uberApp" />
+      <option name="MAIN_CLASS_NAME" value="com.sakshi.project.uber.uberApp.UberAppApplicationTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ProdUberApplication" />
+      <item itemvalue="Application.UberAppApplication" />
+      <item itemvalue="JUnit.UberAppApplicationTests" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UberAppApplicationTests" />
         <item itemvalue="Application.UberAppApplication" />
       </list>
     </recent_temporary>
@@ -277,6 +295,31 @@
       <option name="presentableId" value="Default" />
       <updated>1721049804886</updated>
     </task>
+    <task id="LOCAL-00001" summary="New commit">
+      <option name="closed" value="true" />
+      <created>1722872938961</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722872938961</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="part 2, added Mapper config, implemented the rideRequest service" />
+    <MESSAGE value="New commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="New commit" />
   </component>
 </project>

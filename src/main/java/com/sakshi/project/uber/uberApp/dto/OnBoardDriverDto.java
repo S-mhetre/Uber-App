@@ -1,4 +1,8 @@
 package com.sakshi.project.uber.uberApp.dto;
 
-public class OnBoardNewDriverDto {
+import lombok.Data;
+
+@Data
+public class OnBoardDriverDto {
+    private String vehicleId;
 }
